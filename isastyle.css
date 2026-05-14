@@ -1,0 +1,45 @@
+
+
+.container1{
+    font-family: 'Arial', sans-serif;
+    background-color: #6B7532;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    font-color: #fff;
+}
+
+.container1 h1,
+.container1 p {
+    width: 100%;
+    max-width: 800px;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.central img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    flex-align-self: center;
+}
+
+body{
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+}
